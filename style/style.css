@@ -1,0 +1,50 @@
+/* Google font   */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@500&display=swap");
+/* Comon utilites */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+.container {
+  background-color: white;
+  width: 870px;
+  padding: 30px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+/* Top player styling  */
+.top-players{
+    margin-bottom:30px;
+}
+.section-title {
+  color: rgba(86, 46, 255, 1);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 3px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.hr-under-top-players {
+  border: 1px solid #d1d1d1;
+}
