@@ -10,10 +10,13 @@ body {
   background-color: white;
   width: 870px;
   padding: 30px;
+  border-radius: 10px;
+  margin-top:21px;
 }
 main {
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  align-items:center;
 }
 /* Top player styling  */
 .top-players {
@@ -47,8 +50,15 @@ main {
 
 .hr-under-top-players {
   border: 1px solid #d1d1d1;
+  margin-bottom: 30px;
 }
 /* Styling Top Blogs  */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 60px;
+  grid-column-gap: 60px;
+}
 .thumbnail {
   display: flex;
 }
@@ -58,7 +68,7 @@ main {
   height: 117px;
 }
 .blog-info {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .blog-title {
   font-size: 20px;
@@ -67,14 +77,13 @@ main {
   margin-bottom: 10px;
 }
 .blog-author {
-    font-size: 16px;
-    line-height: 21px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-    
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
-.blog-author a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #562eff;
+.blog-author a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #562eff;
 }
