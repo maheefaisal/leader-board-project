@@ -88,10 +88,27 @@ main {
   color: #562eff;
 }
 /* Styling the courses section  */
+.courses{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
 .course-banner img{
     width: 224px;
     height: 104px;
 }
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-duration{
+  background-color: #FFE4E8;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FF4A60;
+
 }
